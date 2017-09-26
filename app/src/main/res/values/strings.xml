@@ -10,7 +10,7 @@
 
 <resources>
     <string name="app_name">Simiasque</string>
-    <string name="message_to_monkey">Go away you silly monkey!</string>
+    <string name="message_to_monkey">AvoidTouch_Uninstall_Simiasque_ToEnd</string>
     <string name="activity_switch_label">Hide status bar</string>
     <string name="activity_link_to_licenses"><u>Third parties software</u></string>
     <string name="license_aa_title">AndroidAnnotations</string>

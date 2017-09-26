@@ -44,13 +44,13 @@ public class MyActivity extends Activity {
     protected void init() {
         //when initializing the activity, set the switch state according to the singleton state
         aSwitch.setChecked(holder.isShown());
+        ViewService_.intent(getApplication()).showMask().start();
     }
 
     @CheckedChange(R.id.switch_view)
     protected void checkedChangeOnSwitch(boolean isChecked) {
         // called whenever the switch is touched
         if (isChecked) {
-            ViewService_.intent(getApplication()).showMask().start();
         } else {
             ViewService_.intent(getApplication()).hideMask().start();
         }

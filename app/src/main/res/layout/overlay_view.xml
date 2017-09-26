@@ -12,12 +12,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:background="@android:color/holo_blue_bright"
+    android:layout_height="match_parent"
     tools:ignore="Overdraw">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#8fffffff"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/message_to_monkey"
         android:id="@+id/textView"
